@@ -14,7 +14,7 @@ func main() {
 
 	fmt.Println(x)
 
-	y = int(x) // Custom type and primitive type are distinct and need explicit conversion
+	y = int(x) // O tipo customizado e o tipo primitivo são distintos e precisam de conversão explicita
 
 	fmt.Println(y)
 }
