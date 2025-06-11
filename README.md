@@ -43,3 +43,10 @@
 -   Exercise 8 - [Map](level-004/exercise-008/main.go)
 -   Exercise 9 - [Add New Data to the Map](level-004/exercise-009/main.go)
 -   Exercise 10 - [Remove Map Data](level-004/exercise-010/main.go)
+
+## level 5
+
+-   Exercise 1 - [Slice of Structs with a Nested Slice](level-005/exercise-001/main.go)
+-   Exercise 2 - [Map of Strings to Structs with a slice](level-005/exercise-002/main.go)
+-   Exercise 3 - [Composite Types](level-005/exercise-003/main.go)
+-   Exercise 4 - [Anonymous Struct](level-005/exercise-004/main.go)
