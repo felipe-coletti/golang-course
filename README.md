@@ -67,4 +67,4 @@
 ## level 7
 
 -   Exercise 1 - [Memory Address](level-007/exercise-001/main.go)
--   Exercise 2 - [](level-007/exercise-002/main.go)
+-   Exercise 2 - [Setter Method with Pointer Receiver](level-007/exercise-002/main.go)
