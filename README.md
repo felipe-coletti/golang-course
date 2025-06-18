@@ -50,3 +50,16 @@
 -   Exercise 2 - [Map of Strings to Structs with a slice](level-005/exercise-002/main.go)
 -   Exercise 3 - [Composite Types](level-005/exercise-003/main.go)
 -   Exercise 4 - [Anonymous Struct](level-005/exercise-004/main.go)
+
+## level 6
+
+-   Exercise 1 - [Return Values](level-006/exercise-001/main.go)
+-   Exercise 2 - [Sum of Slice Values](level-006/exercise-002/main.go)
+-   Exercise 3 - [Defer](level-006/exercise-003/main.go)
+-   Exercise 4 - [Name and Age Function with Receiver](level-006/exercise-004/main.go)
+-   Exercise 5 - [Shapes Area Functions with Parameter and Receiver](level-006/exercise-005/main.go)
+-   Exercise 6 - [Anonymous Function](level-006/exercise-006/main.go)
+-   Exercise 7 - [Anonymous Function Assigned to Variable](level-006/exercise-007/main.go)
+-   Exercise 8 - [Nested Anonymous Functions in a Variable](level-006/exercise-008/main.go)
+-   Exercise 9 - [Callback](level-006/exercise-009/main.go)
+-   Exercise 10 - [Closure](level-006/exercise-010/main.go)
