@@ -2,32 +2,32 @@ package main
 
 import "fmt"
 
-type Car struct {
+type car struct {
 	doorsNumber int
 	color       string
 }
 
-type Pickup struct {
-	Car
+type pickup struct {
+	car
 	fourByFour bool
 }
 
-type Sedan struct {
-	Car
+type sedan struct {
+	car
 	deluxe bool
 }
 
 func main() {
-	car1 := Pickup{
-		Car: Car{
+	car1 := pickup{
+		car: car{
 			doorsNumber: 2,
 			color:       "White",
 		},
 		fourByFour: true,
 	}
 
-	car2 := Sedan{
-		Car: Car{
+	car2 := sedan{
+		car: car{
 			doorsNumber: 4,
 			color:       "Black",
 		},

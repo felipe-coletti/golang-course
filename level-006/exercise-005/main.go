@@ -2,20 +2,20 @@ package main
 
 import "fmt"
 
-type Square struct {
+type square struct {
 	side float64
 }
 
-type Circle struct {
+type circle struct {
 	radius float64
 }
 
-func (square Square) area() float64 {
-	return square.side * square.side
+func (s square) area() float64 {
+	return s.side * s.side
 }
 
-func (circle Circle) area() float64 {
-	return 3.14 * circle.radius * circle.radius
+func (c circle) area() float64 {
+	return 3.14 * c.radius * c.radius
 }
 
 type Shape interface {
@@ -27,16 +27,16 @@ func getArea(shape Shape) float64 {
 }
 
 func main() {
-	square := Square{
+	s := square{
 		side: 4.5,
 	}
 
-	circle := Circle{
+	c := circle{
 		radius: 3,
 	}
 
-	fmt.Println(square.area())
-	fmt.Println(circle.area())
-	fmt.Println(getArea(square))
-	fmt.Println(getArea(circle))
+	fmt.Println(s.area())
+	fmt.Println(c.area())
+	fmt.Println(getArea(s))
+	fmt.Println(getArea(c))
 }

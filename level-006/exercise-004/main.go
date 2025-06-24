@@ -2,22 +2,22 @@ package main
 
 import "fmt"
 
-type Person struct {
+type person struct {
 	name    string
 	surname string
 	age     int
 }
 
-func (person Person) nameAndAge() {
-	fmt.Printf("%v, %vyo\n", person.name, person.age)
+func (p person) nameAndAge() {
+	fmt.Printf("%v, %vyo\n", p.name, p.age)
 }
 
 func main() {
-	person := Person{
+	p := person{
 		name:    "Ana",
 		surname: "Silva",
 		age:     28,
 	}
 
-	person.nameAndAge()
+	p.nameAndAge()
 }

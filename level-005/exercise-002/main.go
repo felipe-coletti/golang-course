@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-type Person struct {
+type person struct {
 	name            string
 	surname         string
 	favoriteFlavors []string
 }
 
 func main() {
-	people := map[string]Person{
+	people := map[string]person{
 		"Silva": {
 			name:            "Ana",
 			surname:         "Silva",
@@ -22,11 +22,11 @@ func main() {
 		},
 	}
 
-	for _, person := range people {
-		fmt.Printf("%v %v\n", person.name, person.surname)
+	for _, p := range people {
+		fmt.Printf("%v %v\n", p.name, p.surname)
 		fmt.Println("Sabores favoritos:")
 
-		for i, flavor := range person.favoriteFlavors {
+		for i, flavor := range p.favoriteFlavors {
 			fmt.Printf("\t%d - %v\n", i+1, flavor)
 		}
 	}
