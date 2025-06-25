@@ -68,3 +68,11 @@
 
 -   Exercise 1 - [Memory Address](level-007/exercise-001/main.go)
 -   Exercise 2 - [Setter Method with Pointer Receiver](level-007/exercise-002/main.go)
+
+## level 8
+
+-   Exercise 1 - [JSON Marshal](level-008/exercise-001/main.go)
+-   Exercise 2 - [JSON Unmarshal](level-008/exercise-002/main.go)
+-   Exercise 3 - [Method Chaining with NewEnconder() and Encode()](level-008/exercise-003/main.go)
+-   Exercise 4 - [Sorting Slice Values](level-008/exercise-004/main.go)
+-   Exercise 5 - [Sorting a Slice of Structs](level-008/exercise-005/main.go)
