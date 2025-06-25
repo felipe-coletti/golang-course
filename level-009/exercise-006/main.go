@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Printf("OS: %v\n", runtime.GOOS)
-	fmt.Printf("ARCH: %v\n", runtime.GOARCH)
+	fmt.Printf("OS:\t%v\n", runtime.GOOS)
+	fmt.Printf("ARCH:\t%v\n", runtime.GOARCH)
 }
