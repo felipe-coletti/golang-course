@@ -9,7 +9,7 @@ type person struct {
 }
 
 func (p person) nameAndAge() {
-	fmt.Printf("%v, %vyo\n", p.name, p.age)
+	fmt.Printf("%v %v, %dyo\n", p.name, p.surname, p.age)
 }
 
 func main() {
