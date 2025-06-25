@@ -76,3 +76,12 @@
 -   Exercise 3 - [Method Chaining with NewEnconder() and Encode()](level-008/exercise-003/main.go)
 -   Exercise 4 - [Sorting Slice Values](level-008/exercise-004/main.go)
 -   Exercise 5 - [Sorting a Slice of Structs](level-008/exercise-005/main.go)
+
+## level 9
+
+-   Exercise 1 - [Goroutines](level-009/exercise-001/main.go)
+-   Exercise 2 - [Pointer Receiver Methods and Interface-Based Functions](level-009/exercise-002/main.go)
+-   Exercise 3 - [Race Condition in Goroutines](level-009/exercise-003/main.go)
+-   Exercise 4 - [Solving Race Condition with Mutex](level-009/exercise-004/main.go)
+-   Exercise 5 - [Solving Race Condition with Atomic](level-009/exercise-005/main.go)
+-   Exercise 6 - [OS and ARCH](level-009/exercise-006/main.go)
