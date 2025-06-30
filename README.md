@@ -103,3 +103,9 @@
 -   Exercise 3 - [Custom Error with builtin.error Interface](level-011/exercise-003/main.go)
 -   Exercise 4 - [Custom Error with Additional Fields](level-011/exercise-004/main.go)
 -   Exercise 5 - [Basic Unit Testing with testing.T](level-011/exercise-005/main.go)
+
+# level 12
+
+-   Exercise 1 - [Creating and Documenting a Custom Package](level-012/exercise-001/main.go)
+-   Exercise 2 - [Publishing and Testing Package Documentation on pkg.go.dev](level-012/exercise-002/main.go)
+-   Exercise 3 - [Navigating Standard Library Documentation with godoc](level-012/exercise-003/main.go)
