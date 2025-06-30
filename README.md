@@ -95,3 +95,11 @@
 -   Exercise 5 - [Comma-Ok Idiom](level-010/exercise-005/main.go)
 -   Exercise 6 - [Range over Closed Channel](level-010/exercise-006/main.go)
 -   Exercise 7 - [Multiple Goroutines Sending to a Shared Channel](level-010/exercise-007/main.go)
+
+# level 11
+
+-   Exercise 1 - [Error Handling with log.Println()](level-011/exercise-001/main.go)
+-   Exercise 2 - [Error Formatting with fmt.Errorf() and log.Fatalf()](level-011/exercise-002/main.go)
+-   Exercise 3 - [Custom Error with builtin.error Interface](level-011/exercise-003/main.go)
+-   Exercise 4 - [Custom Error with Additional Fields](level-011/exercise-004/main.go)
+-   Exercise 5 - [Basic Unit Testing with testing.T](level-011/exercise-005/main.go)
