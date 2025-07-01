@@ -12,6 +12,5 @@ func main() {
 	v := <-c
 
 	fmt.Println(v)
-
 	fmt.Printf("%v\t%T\n", c, c)
 }

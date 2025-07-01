@@ -4,20 +4,20 @@ import "fmt"
 
 func main() {
 	people := []struct {
-		name    string
-		surname string
+		firstName string
+		lastName  string
 	}{
 		{
-			name:    "Ana",
-			surname: "Silva",
+			firstName: "Ana",
+			lastName:  "Silva",
 		},
 		{
-			name:    "Bruno",
-			surname: "Santos",
+			firstName: "Bruno",
+			lastName:  "Santos",
 		},
 	}
 
 	for _, person := range people {
-		fmt.Printf("%v %v\n", person.name, person.surname)
+		fmt.Printf("%v %v\n", person.firstName, person.lastName)
 	}
 }

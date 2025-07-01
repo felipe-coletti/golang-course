@@ -26,6 +26,7 @@ func sqrt(f float64) (float64, error) {
 			Err:   err,
 		}
 	}
+	
 	return math.Sqrt(f), nil
 }
 

@@ -3,21 +3,21 @@ package main
 import "fmt"
 
 type person struct {
-	name    string
-	surname string
+	firstName string
+	lastName  string
 }
 
 func (p *person) setName(newName string) {
-	(*p).name = newName
+	(*p).firstName = newName
 }
 
 func main() {
 	p := person{
-		name:    "Ana",
-		surname: "Silva",
+		firstName: "Ana",
+		lastName:  "Silva",
 	}
 
 	(&p).setName("Bruno")
 
-	fmt.Println(p.name)
+	fmt.Println(p.firstName)
 }

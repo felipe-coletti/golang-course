@@ -3,12 +3,12 @@ package main
 import "fmt"
 
 type person struct {
-	name    string
-	surname string
+	firstName string
+	lastName  string
 }
 
 func (p *person) say(phrase string) {
-	fmt.Printf("%v %v: %v\n", (*p).name, (*p).surname, phrase)
+	fmt.Printf("%v %v: %v\n", (*p).firstName, (*p).lastName, phrase)
 }
 
 type human interface {
@@ -21,8 +21,8 @@ func say(h human, phrase string) {
 
 func main() {
 	p := person{
-		name:    "Ana",
-		surname: "Silva",
+		firstName: "Ana",
+		lastName:  "Silva",
 	}
 
 	p.say("Olá!")    // Funciona porque o compilador automaticamente faz (&p).say()

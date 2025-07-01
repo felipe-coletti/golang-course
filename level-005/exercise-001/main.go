@@ -3,27 +3,27 @@ package main
 import "fmt"
 
 type person struct {
-	name            string
-	surname         string
+	firstName       string
+	lastName        string
 	favoriteFlavors []string
 }
 
 func main() {
 	people := []person{
 		{
-			name:            "Ana",
-			surname:         "Silva",
+			firstName:       "Ana",
+			lastName:        "Silva",
 			favoriteFlavors: []string{"Morango", "Chocolate"},
 		},
 		{
-			name:            "Bruno",
-			surname:         "Santos",
+			firstName:       "Bruno",
+			lastName:        "Santos",
 			favoriteFlavors: []string{"Baunilha", "Menta"},
 		},
 	}
 
 	for _, p := range people {
-		fmt.Printf("%v %v\n", p.name, p.surname)
+		fmt.Printf("%v %v\n", p.firstName, p.lastName)
 		fmt.Println("Sabores favoritos:")
 
 		for i, flavor := range p.favoriteFlavors {

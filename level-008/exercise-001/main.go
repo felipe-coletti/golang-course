@@ -6,14 +6,14 @@ import (
 )
 
 type User struct {
-	Id       int
 	Username string
+	Age      int
 }
 
 func main() {
-	u1 := User{0, "silva_ana"}
-	u2 := User{1, "santos_bruno"}
-	u3 := User{2, "oliveira_carla"}
+	u1 := User{"silva_ana", 28}
+	u2 := User{"santos_bruno", 34}
+	u3 := User{"oliveira_carla", 31}
 
 	users := []User{u1, u2, u3}
 

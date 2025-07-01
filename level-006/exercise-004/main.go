@@ -3,20 +3,20 @@ package main
 import "fmt"
 
 type person struct {
-	name    string
-	surname string
-	age     int
+	firstName string
+	lastName  string
+	age       int
 }
 
 func (p person) nameAndAge() {
-	fmt.Printf("%v %v, %dyo\n", p.name, p.surname, p.age)
+	fmt.Printf("%v %v, %dyo\n", p.firsName, p.lastName, p.age)
 }
 
 func main() {
 	p := person{
-		name:    "Ana",
-		surname: "Silva",
-		age:     28,
+		firsName: "Ana",
+		lastName: "Silva",
+		age:      28,
 	}
 
 	p.nameAndAge()
